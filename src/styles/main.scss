@@ -1,0 +1,181 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../styles/imgs/sky.jpg');
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+    .block {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      width: 1080px;
+      height: 720px;
+      padding: 30px;
+      .home-card {
+        margin: 20px;
+        padding: 20px;
+        width: 150px;;
+        height: 20vh;
+        border: solid black 1px;
+        background-color: rgb(166, 225, 241, 0.4);
+        border-radius: 5%;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Corinthia', cursive;
+      }
+  
+  
+      .chuck {
+        background-image: url('../styles/imgs/chuck.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 20px;
+        padding: 20px;
+        width: 150px;;
+        height: 20vh;
+        border: solid black 1px;
+        background-color: rgba(255, 255, 255, 0.4);
+        border-radius: 5%;
+        text-align: center;
+      }
+      .ron {
+        background-image: url('../styles/imgs/ron.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 20px;
+        padding: 20px;
+        width: 150px;;
+        height: 20vh;
+        border: solid black 1px;
+        background-color: rgba(255, 255, 255, 0.4);
+        border-radius: 5%;
+        text-align: center;
+      }
+      .kanye {
+        background-image: url('../styles/imgs/kanye.png');
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin: 20px;
+        padding: 20px;
+        width: 150px;;
+        height: 20vh;
+        border: solid black 1px;
+        background-color: rgba(255, 255, 255, 1);
+        border-radius: 5%;
+        text-align: center;
+      }
+    }
+  }
+  
+  .search-hidden {
+    display: none;
+  }
+  
+  
+  .background {
+    background-image: url('https://source.unsplash.com/random/1600×900/?wellness');
+    height: 100vh;
+    // width: 1000px;
+    background-position: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+      .text-css {
+        background-color: rgba(255, 255, 255, 0.5);
+        // width: 1000px;
+        text-align: center;
+        padding: 10px;
+      }
+      .sub {
+        font-size: 20px;
+      }
+  }
+  
+  .background-two {
+    background-image: url('https://source.unsplash.com/random/1600×900/?buddha');
+    height: 100vh;
+    // width: 1000px;
+    background-position: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+      .text-css-two {
+        background-color: rgba(255, 255, 255, 0.5);
+        // width: 1000px;
+        text-align: center;
+        padding: 10px;
+      }
+      .sub {
+        font-size: 20px;
+      }
+  } 
+  
+  .background-three {
+    background-image: url('https://source.unsplash.com/random/1600×900/?nature');
+    height: 100vh;
+    // width: 1000px;
+    background-position: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+      .text-css-three {
+        background-color: rgba(255, 255, 255, 0.5);
+        // width: 1000px;
+        text-align: center;
+        padding: 10px;
+      }
+      .sub {
+        font-size: 20px;
+      }
+  } 
+  
+  .background-four {
+    background-image: url('https://source.unsplash.com/random/1600×900/?rubbish');
+    height: 100vh;
+    // width: 1000px;
+    background-position: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+      .text-css-four {
+        background-color: rgba(255, 255, 255, 0.5);
+        // width: 1000px;
+        text-align: center;
+        padding: 10px;
+      }
+      .sub {
+        font-size: 20px;
+      }
+  } 
+  .background-five {
+    background-image: url('https://source.unsplash.com/random/1600×900/?wilderness');
+    height: 100vh;
+    // width: 1000px;
+    background-position: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+      .text-css-five {
+        background-color: rgba(255, 255, 255, 0.5);
+        // width: 1000px;
+        text-align: center;
+        padding: 10px;
+      }
+      .sub {
+        font-size: 20px;
+      }
+  } 
+  .card-shadow {
+    border: 0.5px solid lightgrey;
+    border-radius: 15%;
+    margin: 10px;
+  }
+  
+  @import '~bulma/bulma.sass';

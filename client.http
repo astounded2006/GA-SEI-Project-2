@@ -1,0 +1,24 @@
+
+# GET https://eonet.gsfc.nasa.gov/api/v2.1/events?source=InciWeb
+
+# GET https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&page=2&api_key=UKmDDt6v4bwm6gyl7mgscwAsYDShRLzyjPjVTqev
+
+# GET https://mars.nasa.gov/rss/api/?feed=weather&category=insight&feedtype=json&ver=1.0
+
+
+GET https://api.chucknorris.io/jokes/random
+
+
+###
+
+GET https://ron-swanson-quotes.herokuapp.com/v2/quotes
+
+
+###
+GET https://quotes.rest/qod
+
+###
+GET https://api.whatdoestrumpthink.com/api/v1/quotes/random
+
+###
+GET https://type.fit/api/quotes
