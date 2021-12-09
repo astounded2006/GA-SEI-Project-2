@@ -1,12 +1,11 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Home from './components/common/Home'
-import CreateQuoteCard from './components/quoteCards/CreateQuoteCard'
-import RandomQuoteCard from './components/quoteCards/RandomQuoteCard'
-import Chuck from './components/quoteCards/Chuck'
-import Ron from './components/quoteCards/Ron'
-import Kanye from './components/quoteCards/Kanye'
-import Nav from './components/common/Nav'
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./components/common/Home";
+import CreateQuoteCard from "./components/quoteCards/CreatequoteCard";
+import RandomQuoteCard from "./components/quoteCards/RandomQuoteCard";
+import Chuck from "./components/quoteCards/Chuck";
+import Ron from "./components/quoteCards/Ron";
+import Kanye from "./components/quoteCards/Kanye";
+import Nav from "./components/common/Nav";
 
 function App() {
   return (
@@ -21,8 +20,7 @@ function App() {
         <Route path="/kanye" element={<Kanye />} />
       </Routes>
     </BrowserRouter>
-  )
-  
+  );
 }
 
-export default App
+export default App;
